@@ -1,0 +1,12 @@
+li {
+    color: blue;
+}
+body {
+    background-color: whitesmoke;
+}
+.text-greenyellow{
+    color: greenyellow;
+}
+span {
+    border: 2px dotted orange; 
+}
