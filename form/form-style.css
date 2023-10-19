@@ -1,0 +1,15 @@
+a{
+   font-size: 0.7rem;
+}
+fieldset{
+    margin: 20px;
+}
+botton{
+    margin: 10px;
+}
+input[type]{
+    margin: 5px;
+}
+input[type="text"]{
+    padding-left: 10px;
+}
