@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+h2{
+    width: 90%;
+
+}
+a{
+   width: 60%;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    background-color: #cef76e;
+}
+p{
+    width: 90%;
+}
+.item{
+    width: 25%;
+    background-color: #fd6b5b;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: white;
+
+}
+.artist img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
