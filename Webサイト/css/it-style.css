@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #afd1f3;
+}
+
+h1{
+  text-align: center;
+}
+
+table { 
+width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+background-color: #f2f2f2;
+}
+td{
+    background-color: white;
+}
+
+
+
+.sample_h_14{
+  font-size: 1.5em;/* フォントサイズ */
+  font-weight: bold;/* フォント太さ */
+  padding: 0.5em 1em;
+  margin-bottom: 2em;
+  position: relative;
+  background-color: 	#6666CC;/* 背景色 */
+  box-shadow: 0px 0px 0px 5px 	#6666CC;
+  border: dashed 2px #ffffff;/* 破線 */
+  color:#000000;/* フォント色 */
+  text-align: center;
+  }
+  
+  .sample_h_14:after {
+  position: absolute;
+  content: '';
+  top: -7px;
+  left: -7px;
+  border-width: 0 0 20px 20px;
+  border-style: dashed;
+  border-color: #fff #fff 	#6666CC;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }

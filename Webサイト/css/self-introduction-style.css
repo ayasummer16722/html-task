@@ -1,0 +1,185 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+}
+body{
+    background-color: #e0c1ff;
+}
+.breadcrumbs{
+    list-style: none;
+    display: flex;
+}
+.breadcrumbs li::after{
+    content: "👉";
+    padding: 0 0.5rem;
+}
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+h1{
+    text-align: center;
+}
+
+.mark-list li {
+    padding: 2px;
+}
+
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+nav ul li{
+    width: 20%;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    padding: 0.5rem;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-square-toy {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    background: #00BCD4;/*背景色*/
+    color: whitesmoke;/*=背景色*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2);
+    border-bottom: solid 2px #118e9e;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
+  }
+
+  footer{
+    text-align: center;
+  }
+
+
+
+
+
+
+/* 修正 */
+.talking {
+    margin-bottom:2em;
+    position:relative;
+}
+
+.talking:before , .talking:after {
+    clear:both;
+    content:"";
+    display:block;
+}
+
+/*アイコン*/
+.talking figure {
+    width:60px;     /*アイコンの横幅*/
+    height:60px;    /*アイコンの縦幅*/
+}
+
+.talking-left_icon{
+    float:left;
+    margin-right:20px;    /*アイコンの右の余白(左の吹き出し)*/
+}
+
+.talking-right_icon {
+    float:right;
+    margin-left:20px;    /*アイコンの左の余白(右の吹き出し)*/
+}
+
+.talking figure img {
+    width:100%;
+    height:100%;
+    margin:0;
+    border:2px solid #aaa;
+    border-radius:50%;    /*アイコンの角丸*/
+}
+
+/*アイコンの下の名前*/
+.talking-left_icon figcaption ,
+.talking-right_icon figcaption {
+    padding:2px 0 0;
+    font-size:12px;
+    text-align:center;
+}
+
+/*吹き出しのセリフ部分*/
+.talking-left , .talking-right  {
+    position:relative;
+    padding:10px;
+    border-style:solid;    /*枠線の線種*/
+    border-radius:10px;    /*セリフを入れる部分の角丸*/
+    max-width: calc(100% - 80px);
+}
+
+.talking p {
+    margin:0;
+}
+
+.talking p :last-child {
+    margin:0;
+}
+
+/*---左の吹き出し---*/
+.talking-left {
+    float:left;
+    border-width:2px;         /*枠線の太さ*/
+    border-color:lightpink;   /*枠線の色*/
+    background:lightpink;    /*背景色*/
+}
+
+/*左の吹き出し 三角*/
+.talking-left:before {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-right: 10px solid lightpink;  /*三角の線になる部分*/
+    top: 15px;
+    left: -22px;
+}
+
+.talking-left:after {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-right: 10px solid lightpink;
+    top: 15px;
+    left: -19px;
+}
+
+/*---右の吹き出し---*/
+.talking-right {
+    float:right;
+    border-width:2px;      /*枠線の太さ*/
+    border-color:khaki;    /*枠線の色*/
+    background:khaki;    /*背景色*/
+}
+
+/*右の吹き出し 三角*/
+.talking-right:before {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-left: 10px solid khaki;  /*三角の線になる部分*/
+    top: 15px;
+    right: -22px;
+}
+
+.talking-right:after {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-left: 10px solid khaki;
+    top: 15px;
+    right: -19px;
+}

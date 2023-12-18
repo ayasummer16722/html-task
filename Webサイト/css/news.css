@@ -1,0 +1,21 @@
+body{
+    background-color: #fec88f;
+}
+h1{
+    text-align: center;
+}
+
+.box{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 200px;
+
+}
+.item{
+    width: 25%;
+    background-color: #fd6b5b;
+    margin: 10px;
+    padding: 10px;
+}

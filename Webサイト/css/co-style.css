@@ -1,0 +1,71 @@
+body{
+    background-color: #fd9bb5;
+}
+
+/* リボンの部分 */
+.midashi{
+    position: relative;
+    width: 290px;
+    margin: 0 auto;
+    padding: .5em .7em;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+
+.midashi:before , .midashi:after{
+    position: absolute;
+    bottom: -10px;
+    z-index: -1;
+    border-style: solid;
+    border-color: red;
+    content: '';
+}
+
+.midashi:before{
+    left: -30px;
+    border-width: 25px 25px 25px 15px;
+    border-left-color: transparent;
+}
+
+.midashi:after{
+    right: -30px;
+    border-width: 25px 15px 25px 25px;
+    border-right-color: transparent;
+}
+
+.midashi span:before , .midashi span:after{
+    position: absolute;
+    bottom: -10px;
+    width: 10px;
+    height: 10px;
+    background-color: #8b0000;
+    content: '';
+}
+
+.midashi span:before{
+    left: 0;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%);
+}
+
+.midashi span:after{
+    right: 0;
+    clip-path: polygon(0 0, 100% 0%, 0% 100%);
+}
+
+
+/* 箇条書き */
+.kajou{
+    background: #fffde8;
+    box-shadow: 0px 0px 0px 10px #fffde8;
+    border: dashed 2px #ffb03f;
+    border-radius: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.kajou li{
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
