@@ -1,0 +1,108 @@
+#screen,img{
+    height: 100vh;
+}
+
+
+#menu {
+    position: absolute;
+    margin-left: 30px;
+    width: 300px;
+    height: 980px;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+}
+
+#daimei{
+    font-size: 40px;
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+      font-family: 'Hachi Maru Pop', cursive;
+}
+
+body{
+    background-color: black;
+}
+
+li{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    writing-mode: vertical-rl;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 遷移先 */
+.moji{
+    font-family: 'Hachi Maru Pop', cursive;
+    list-style: none;
+}
+
+#menu{
+    display: flex;
+    font-size: 25px;
+}
+/* 遷移先 */
+
+/*　ホバー前  */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ホバー */
+.moji :hover{
+    color: yellow;
+}
+
+
+
+/* キャラクター */
+.syujinnkou{
+    position: absolute;
+    top: 115px;
+    left: 190px;
+}
+
+.syujinnkou1{
+    position: absolute;
+    top: 340px;
+    left: 95px;
+    line-height: 40px;
+    
+}
+
+.neko{
+    position: absolute;
+    top: 175px;
+    left: 600px;
+}
+
+.neko1{
+    position: absolute;
+    top: 340px;
+    left: 545px;
+    line-height: 40px;
+}
+
+
+.nazonosyoujyo{
+    position: absolute;
+    top: 115px;
+    left: 965px;
+}
+
+.nazonosyoujyo1{
+    position: absolute;
+    top: 340px;
+    left: 900px;
+    line-height: 40px;
+}
+/* キャラクター */

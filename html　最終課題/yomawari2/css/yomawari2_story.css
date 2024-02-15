@@ -1,0 +1,82 @@
+#screen,img{
+    height: 100vh;
+}
+
+
+#menu {
+    position: absolute;
+    margin-left: 30px;
+    width: 300px;
+    height: 900px;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+}
+
+#daimei{
+    font-size: 40px;
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+      font-family: 'Hachi Maru Pop', cursive;
+}
+
+body{
+    background-color: black;
+}
+
+li{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    writing-mode: vertical-rl;
+}
+
+
+
+img{
+    width: 100%;
+}
+
+
+
+/* 遷移先 */
+.moji{
+    font-family: 'Hachi Maru Pop', cursive;
+    list-style: none;
+}
+
+#menu{
+    display: flex;
+    font-size: 25px;
+}
+/* 遷移先 */
+
+/*　ホバー前  */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ホバー */
+.moji :hover{
+    color: red;
+}
+
+
+
+/* 文章 */
+p{
+    position: absolute;
+    left: 45%;
+    margin: 100px;
+    font-size: 20px;
+    transform: translateX(-50%);
+        color: black;
+        line-height: 60px;
+        font-family: "New Tegomin", serif;
+}
+
+/* 文章 */

@@ -1,0 +1,25 @@
+body{
+    background-image: url(../img/hatena.jpg);
+}
+
+#moji{
+    position: absolute;
+    left: 38%;
+    margin: 195px;
+    font-size: 20px;
+    transform: translateX(-50%);
+        color: black;
+        line-height: 65px;
+        font-family: "New Tegomin", serif;
+}
+
+#aka{
+    position: absolute;
+    left: 20%;
+    margin: 400px;
+    font-size: 30px;
+    transform: translateX(-50%);
+        color: red;
+        line-height: 65px;
+        font-family: "New Tegomin", serif;
+}

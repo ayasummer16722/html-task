@@ -1,0 +1,61 @@
+#menu {
+    position: absolute;
+    width: 590px;
+    height: 220px;
+    right: 50px;
+    bottom: 10px;
+}
+body{
+    text-align: center;
+    background-color: black;
+}
+
+li{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    writing-mode: vertical-rl;
+}
+
+#screen,img{
+    height: 100vh;
+}
+
+
+/* 遷移先 */
+.moji{
+    font-family: 'Hachi Maru Pop', cursive;
+    list-style: none;
+}
+
+#menu{
+    display: flex;
+    font-size: 20px;
+}
+/* 遷移先 */
+
+/*　ホバー前  */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ホバー */
+.moji :hover{
+    color: yellow;
+}
+
+
+
+/* 隠し場所 */
+.ten{
+position: absolute;
+color: black;
+font-size: 20px;
+left: 652px;
+top: 311px;
+}
+/* 隠し場所 */

@@ -1,0 +1,49 @@
+#menu {
+    position: absolute;
+    margin-left: 30px;
+    width: 450px;
+    height: 220px;
+    right: 10px;
+    bottom: 10px;
+}
+#screen,img{
+    height: 100vh;
+}
+body{
+    text-align: center;
+    background-color: black;
+}
+
+li{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    writing-mode: vertical-rl;
+}
+
+
+/* 遷移先 */
+.moji{
+    font-family: 'Hachi Maru Pop', cursive;
+    list-style: none;
+}
+
+#menu{
+    display: flex;
+    font-size: 20px;
+}
+/* 遷移先 */
+
+/*　ホバー前  */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ホバー */
+.moji :hover{
+    color: red;
+}
